@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -108,7 +108,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Foreground_Elements_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 835
+        width: 215
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4603bf7ba88e494e8448f8b7ece8711
+      internalID: -1757776989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_Elements_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 768
+        width: 203
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba266103c8115a34ea76a7724fe0015a
+      internalID: -503013087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_Elements_2
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 766
+        width: 128
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04068758e8d84646b60e4418f523d6c
+      internalID: -1424240568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_Elements_3
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 768
+        width: 237
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecb31f5b1074e745ab8e2992b1f8095
+      internalID: -771447140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_Elements_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 512
+        width: 505
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0145906a6daf87f489d1d440c57cd04e
+      internalID: 1503095426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_Elements_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 254
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36f80802d0d06e488439808ecacd25a
+      internalID: -1074406202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_Elements_6
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 512
+        width: 247
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8f69b25c44f634bbe1f124a725d1d2
+      internalID: -716657582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_Elements_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 256
+        width: 245
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2570005d1b3294d8a62b47b98dbaea
+      internalID: 534035813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_Elements_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 256
+        width: 239
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74815f07f2252a94ca05e144a440ea8c
+      internalID: -397433822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_Elements_9
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 433
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef6ca53de7ca314babe09195a986e34
+      internalID: -1527892955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foreground_Elements_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 238
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333a60d804c8148418df681f636a4f08
+      internalID: -1493228716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +350,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Foreground_Elements_0: -1757776989
+      Foreground_Elements_1: -503013087
+      Foreground_Elements_10: -1493228716
+      Foreground_Elements_2: -1424240568
+      Foreground_Elements_3: -771447140
+      Foreground_Elements_4: 1503095426
+      Foreground_Elements_5: -1074406202
+      Foreground_Elements_6: -716657582
+      Foreground_Elements_7: 534035813
+      Foreground_Elements_8: -397433822
+      Foreground_Elements_9: -1527892955
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

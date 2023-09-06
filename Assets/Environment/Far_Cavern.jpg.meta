@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -108,7 +108,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Far_Cavern_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10dd9077b9c2d64981373dd39c25a54
+      internalID: -749265878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Far_Cavern_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9b082dc0301dc4598bd18805ed479c
+      internalID: 1328812445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Far_Cavern_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab892fa3a8125d34795130db4ed8061a
+      internalID: -2048488793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +182,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Far_Cavern_0: -1163106617
+      Far_Cavern_1: -749265878
+      Far_Cavern_10: -807360303
+      Far_Cavern_11: 1954980189
+      Far_Cavern_12: -595982992
+      Far_Cavern_13: -608614933
+      Far_Cavern_14: -2048488793
+      Far_Cavern_15: 693757112
+      Far_Cavern_2: -1273653060
+      Far_Cavern_3: 1328812445
+      Far_Cavern_4: -1702522273
+      Far_Cavern_5: -529150258
+      Far_Cavern_6: -31141360
+      Far_Cavern_7: 20226435
+      Far_Cavern_8: 1213327837
+      Far_Cavern_9: -987608606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

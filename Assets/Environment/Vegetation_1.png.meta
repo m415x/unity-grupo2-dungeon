@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,7 +116,7 @@ TextureImporter:
         x: 0
         y: 768
         width: 1024
-        height: 69
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,34 +131,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vegetation_1_1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 511
-        width: 247
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0df08fbab36940d40a3dff9035656293
-      internalID: -457391472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vegetation_1_4
       rect:
         serializedVersion: 2
-        x: 10
-        y: 0
-        width: 502
-        height: 245
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +155,10 @@ TextureImporter:
       name: Vegetation_1_5
       rect:
         serializedVersion: 2
-        x: 250
-        y: 511
-        width: 774
-        height: 121
+        x: 256
+        y: 512
+        width: 512
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,55 +173,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vegetation_1_2
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 256
-        width: 244
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 011c84cf392a8934c82e9580ace98726
-      internalID: 1517132581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vegetation_1_6
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 255
-        width: 265
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73349ec0ad3a4044d96ed09dbc1b4ce1
-      internalID: 1757463947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vegetation_1_7
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 251
-        height: 242
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +197,10 @@ TextureImporter:
       name: Vegetation_1_8
       rect:
         serializedVersion: 2
-        x: 765
+        x: 0
         y: 256
-        width: 259
-        height: 252
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,6 +210,111 @@ TextureImporter:
       bones: []
       spriteID: ee3aeef32d2810d47ba8a6543f395da0
       internalID: -2115074796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation_1_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee57b84989b08a34d93002ffeeb7a745
+      internalID: -939530047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation_1_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4e002c6efd9274388c73c9168eab42
+      internalID: -2104223963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation_1_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4132b8586cb2b704395424111a910fae
+      internalID: 790567060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation_1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef932870a29c64647b2c111bc1a0a4c3
+      internalID: -278669453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegetation_1_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03baadf90b12214390a9b3fb1f3ddcd
+      internalID: 1766418850
       vertices: []
       indices: 
       edges: []
@@ -290,6 +332,12 @@ TextureImporter:
     nameFileIdTable:
       Vegetation_1_0: 1130366400
       Vegetation_1_1: -457391472
+      Vegetation_1_10: -2104223963
+      Vegetation_1_11: 790567060
+      Vegetation_1_12: -278669453
+      Vegetation_1_13: -1765932164
+      Vegetation_1_14: 1766418850
+      Vegetation_1_15: -1503903102
       Vegetation_1_2: 1517132581
       Vegetation_1_3: -379747372
       Vegetation_1_4: -494336729
@@ -297,6 +345,7 @@ TextureImporter:
       Vegetation_1_6: 1757463947
       Vegetation_1_7: -1973366183
       Vegetation_1_8: -2115074796
+      Vegetation_1_9: -939530047
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
