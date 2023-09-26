@@ -1,31 +1,66 @@
 using System.Collections;
-using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using Button = UnityEngine.UI.Button;
 
-public class StartAnimation : MonoBehaviour
+public class MainMenuUIManager : MonoBehaviour
 {
     public Image bgImage;
     public RawImage title;
+    public Button menuButton;
     public Button startButton;
     public Button quitButton;
     public Image progressBar;
     public TMP_Text progressText;
-    public GameObject characterToAppear;
-    public Image statusBar;
-    public GameObject controlButtons;
 
     // Tiempo en segundos para completar la carga
     public float loadTime = 5f;
 
     private bool isLoading = false;
 
-    private void Start()
+    private void OnEnable()
     {
+        // Asigna las funciones a los botones
+        menuButton.onClick.AddListener(delegate { OnButtonClick(menuButton); });
+        startButton.onClick.AddListener(delegate { OnButtonClick(startButton); });
+        quitButton.onClick.AddListener(delegate { OnButtonClick(quitButton); });
+
+        // Ocultar los botones "Start", "Quit"
+        startButton.gameObject.SetActive(false);
+        quitButton.gameObject.SetActive(false);
+
         // Ocultar la barra de progreso y el texto al inicio
         progressBar.fillAmount = 0f;
         progressText.gameObject.SetActive(false);
-        characterToAppear.SetActive(false);
+    }
+
+    private void OnButtonClick(Button buttonPressed)
+    {
+        if (buttonPressed.name == "MenuButton")
+        {
+            // Oculta el botón "Menu"
+            menuButton.gameObject.SetActive(false);
+
+            // Activa los botones "Start" y "Quit"
+            startButton.gameObject.SetActive(true);
+            quitButton.gameObject.SetActive(true);
+        }
+
+        if (buttonPressed.name == "StartButton")
+        {
+            // Llama al método StartLoading() de StartAnimation para comenzar la carga
+            StartLoading();
+        }
+
+        if (buttonPressed.name == "QuitButton")
+        {
+            Debug.Log("Presionaste el botón 'Quit'");
+
+            // Esto funciona en una compilación ejecutable
+            Application.Quit();
+        }
     }
 
     public void StartLoading()
@@ -67,28 +102,9 @@ public class StartAnimation : MonoBehaviour
         // Esperar un breve momento antes de desactivar la barra y el texto
         yield return new WaitForSeconds(1f);
 
-        // Desactivar la barra de progreso y el texto para ocultarlos
-        progressBar.gameObject.SetActive(false);
-        progressText.gameObject.SetActive(false);
-        bgImage.gameObject.SetActive(false);
-        title.gameObject.SetActive(false);
-
-        // Activar el botón "Quit"
-        quitButton.gameObject.SetActive(true);
-
-        // Usar Invoke para activar el GameObject después de 1 segundo
-        Invoke("ShowCharacter", 1f);
+        // Cargar escena 1
+        SceneManager.LoadScene(1);
 
         isLoading = false;
-
-        // Aquí puedes mostrar el juego o realizar cualquier otra acción necesaria
-    }
-
-    private void ShowCharacter()
-    {
-        // Activar el GameObject que deseas que aparezca
-        characterToAppear.SetActive(true);
-        controlButtons.gameObject.SetActive(true);
-        statusBar.gameObject.SetActive(true);
     }
 }
